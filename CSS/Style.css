@@ -110,7 +110,7 @@ img {
 }
 
 .nav-toggle {
-    display: none;
+    display: none !important;
     color: var(--text-light);
     font-size: 1.5rem;
     cursor: pointer;
@@ -515,8 +515,9 @@ footer {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+
     .nav-toggle {
-        display: block;
+        display: block !important;
     }
 
     .nav-links {
