@@ -384,6 +384,11 @@ footer {
     padding-top: 20px;
     border-top: 1px solid #333;
     color: #666;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
 }
 
 /* ANIMATIONS */
@@ -511,6 +516,26 @@ footer {
     color: #333;
     /* Dark bullet */
     font-weight: bold;
+}
+
+/* BACK TO TOP */
+.btn-top {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.btn-top:hover {
+    background: var(--accent-color);
 }
 
 /* RESPONSIVE */
