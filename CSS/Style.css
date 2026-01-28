@@ -306,6 +306,12 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.date-item:hover {
+    transform: translateX(10px);
+    box-shadow: var(--shadow-hover);
 }
 
 .date-label {
