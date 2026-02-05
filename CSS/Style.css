@@ -510,6 +510,7 @@ footer {
     gap: 15px 40px;
     list-style: none;
     /* Removed default bullets */
+    text-align: left;
 }
 
 .track-list li {
