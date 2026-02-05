@@ -1,0 +1,78 @@
+/* COMMITTEE SECTION REDESIGN */
+.committee-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.committee-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.committee-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--accent-color);
+}
+
+.committee-header {
+    background: var(--primary-color);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 3px solid var(--accent-color);
+}
+
+.committee-body {
+    padding: 25px;
+    text-align: center;
+}
+
+/* Typography for Names and Affiliations */
+.c-name {
+    display: block;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.c-affiliation {
+    display: block;
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    /* Space between members */
+    font-weight: 400;
+}
+
+/* Grid for lists (Advisory, Organizing Chairs, etc.) */
+.committee-grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.committee-grid-list li {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #f1f5f9;
+}
+
+/* Specific tweaks */
+.committee-card.chief-patron .committee-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+}

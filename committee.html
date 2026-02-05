@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Committee - SJEC Conference 2026</title>
     <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/committee_styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
@@ -35,64 +36,148 @@
     </section>
 
     <section class="section container">
-        <div class="committee-list">
+        <div class="committee-container">
 
-            <h3 class="committee-role">Chief Patron</h3>
-            <p><strong>Most Rev. Dr. Peter Paul Saldanha</strong>, Bishop, Diocese of Mangalore, India</p>
-            <br>
+            <!-- Chief Patron -->
+            <div class="committee-card chief-patron">
+                <div class="committee-header">Chief Patron</div>
+                <div class="committee-body">
+                    <span class="c-name">Most Rev. Dr. Peter Paul Saldanha</span>
+                    <span class="c-affiliation">Bishop, Diocese of Mangalore, India</span>
+                </div>
+            </div>
 
-            <h3 class="committee-role">Patrons</h3>
-            <p><strong>Rev. Fr Wilfred Prakash D'Souza</strong>, Director, SJEC Mangaluru, India</p>
-            <p><strong>Fr Kenneth Rayner Crasta</strong>, Assistant Director, SJEC Mangaluru, India</p>
-            <br>
+            <!-- Patrons -->
+            <div class="committee-card">
+                <div class="committee-header">Patrons</div>
+                <div class="committee-body">
+                    <div class="committee-grid-list">
+                        <li>
+                            <span class="c-name">Rev. Fr Wilfred Prakash D'Souza</span>
+                            <span class="c-affiliation">Director, SJEC Mangaluru, India</span>
+                        </li>
+                        <li>
+                            <span class="c-name">Fr Kenneth Rayner Crasta</span>
+                            <span class="c-affiliation">Assistant Director, SJEC Mangaluru, India</span>
+                        </li>
+                    </div>
+                </div>
+            </div>
 
-            <h3 class="committee-role">General Chairs</h3>
-            <p><strong>Dr Rio D'Souza</strong>, Principal, SJEC Mangaluru, India</p>
-            <p><strong>Dr Venugopala P. S</strong>, NMAMIT, Nitte University, India</p>
-            <br>
+            <!-- General Chairs -->
+            <div class="committee-card">
+                <div class="committee-header">General Chairs</div>
+                <div class="committee-body">
+                    <div class="committee-grid-list">
+                        <li>
+                            <span class="c-name">Dr Rio D'Souza</span>
+                            <span class="c-affiliation">Principal, SJEC Mangaluru, India</span>
+                        </li>
+                        <li>
+                            <span class="c-name">Dr Venugopala P. S</span>
+                            <span class="c-affiliation">NMAMIT, Nitte University, India</span>
+                        </li>
+                    </div>
+                </div>
+            </div>
 
-            <h3 class="committee-role">Advisory Committee</h3>
-            <ul class="committee-members-ul">
-                <li><strong>Dr Ashwin T. S.</strong>, Vanderbilt University, Tennessee, USA</li>
-                <li><strong>Dr B. H. Shekar</strong>, Mangalore University, India</li>
-                <li><strong>Dr Chengappa M. R.</strong>, HP Enterprise, Bangalore, India</li>
-                <li><strong>Dr D. S. Guru</strong>, University of Mysore, India</li>
-                <li><strong>Dr Mohammed Javed</strong>, IIIT Allahabad, India</li>
-                <li><strong>Dr Mohit P. Tahiliani</strong>, NITK Surathkal, India</li>
-                <li><strong>Dr Mustafa Basthikodi</strong>, Sahyadri College of Engineering and Management, Mangaluru
-                </li>
-                <li><strong>Dr Nagabhushan P.</strong>, Vignan University, Andhra Pradesh, India</li>
-                <li><strong>Dr Niranjan U. C.</strong>, Chair (2020) IEEE Mangalore Subsection, India</li>
-                <li><strong>Dr Pushparaj Shetty D.</strong>, NITK Surathkal, India</li>
-                <li><strong>Dr Ujwal U. J</strong>, Visvesvaraya Technological University, Belagavi, India</li>
-                <li><strong>Dr Vasudeva</strong>, NMAMIT, Nitte University, India</li>
-            </ul>
-            <br>
+            <!-- Advisory Committee -->
+            <div class="committee-card">
+                <div class="committee-header">Advisory Committee</div>
+                <div class="committee-body">
+                    <ul class="committee-grid-list">
+                        <li><span class="c-name">Dr Ashwin T. S.</span> <span class="c-affiliation">Vanderbilt
+                                University, Tennessee, USA</span></li>
+                        <li><span class="c-name">Dr B. H. Shekar</span> <span class="c-affiliation">Mangalore
+                                University, India</span></li>
+                        <li><span class="c-name">Dr Chengappa M. R.</span> <span class="c-affiliation">HP Enterprise,
+                                Bangalore, India</span></li>
+                        <li><span class="c-name">Dr D. S. Guru</span> <span class="c-affiliation">University of Mysore,
+                                India</span></li>
+                        <li><span class="c-name">Dr Mohammed Javed</span> <span class="c-affiliation">IIIT Allahabad,
+                                India</span></li>
+                        <li><span class="c-name">Dr Mohit P. Tahiliani</span> <span class="c-affiliation">NITK
+                                Surathkal, India</span></li>
+                        <li><span class="c-name">Dr Mustafa Basthikodi</span> <span class="c-affiliation">Sahyadri
+                                College of Engineering and Management, Mangaluru</span></li>
+                        <li><span class="c-name">Dr Nagabhushan P.</span> <span class="c-affiliation">Vignan University,
+                                Andhra Pradesh, India</span></li>
+                        <li><span class="c-name">Dr Niranjan U. C.</span> <span class="c-affiliation">Chair (2020) IEEE
+                                Mangalore Subsection, India</span></li>
+                        <li><span class="c-name">Dr Pushparaj Shetty D.</span> <span class="c-affiliation">NITK
+                                Surathkal, India</span></li>
+                        <li><span class="c-name">Dr Ujwal U. J</span> <span class="c-affiliation">Visvesvaraya
+                                Technological University, Belagavi, India</span></li>
+                        <li><span class="c-name">Dr Vasudeva</span> <span class="c-affiliation">NMAMIT, Nitte
+                                University, India</span></li>
+                    </ul>
+                </div>
+            </div>
 
-            <h3 class="committee-role">Organizing Chairs</h3>
-            <ul class="committee-members-ul">
-                <li><strong>Dr Harivinod N</strong>, SJEC Mangaluru, India</li>
-                <li><strong>Dr Dayakshini</strong>, SJEC Mangaluru, India</li>
-                <li><strong>Dr Melwyn D'Souza</strong>, SJEC Mangaluru, India</li>
-                <li><strong>Dr Hareesh B</strong>, SJEC Mangaluru, India</li>
-                <li><strong>Dr Sanath Saralaya</strong>, SJEC Mangaluru, India</li>
-            </ul>
-            <br>
+            <!-- Organizing Chairs -->
+            <div class="committee-card">
+                <div class="committee-header">Organizing Chairs</div>
+                <div class="committee-body">
+                    <ul class="committee-grid-list">
+                        <li><span class="c-name">Dr Harivinod N</span> <span class="c-affiliation">SJEC Mangaluru,
+                                India</span></li>
+                        <li><span class="c-name">Dr Dayakshini</span> <span class="c-affiliation">SJEC Mangaluru,
+                                India</span></li>
+                        <li><span class="c-name">Dr Melwyn D'Souza</span> <span class="c-affiliation">SJEC Mangaluru,
+                                India</span></li>
+                        <li><span class="c-name">Dr Hareesh B</span> <span class="c-affiliation">SJEC Mangaluru,
+                                India</span></li>
+                        <li><span class="c-name">Dr Sanath Saralaya</span> <span class="c-affiliation">SJEC Mangaluru,
+                                India</span></li>
+                    </ul>
+                </div>
+            </div>
 
-            <h3 class="committee-role">Technical Program Chairs</h3>
-            <p><strong>Dr Sridevi Saralaya</strong>, SJEC Mangaluru, India</p>
-            <p><strong>Dr Saumya Y. M</strong>, SJEC Mangaluru, India</p>
-            <p><strong>Dr Vasudeva</strong>, NMAMIT, Nitte University, India</p>
-            <br>
+            <!-- Technical Program Chairs -->
+            <div class="committee-card">
+                <div class="committee-header">Technical Program Chairs</div>
+                <div class="committee-body">
+                    <ul class="committee-grid-list">
+                        <li><span class="c-name">Dr Sridevi Saralaya</span> <span class="c-affiliation">SJEC Mangaluru,
+                                India</span></li>
+                        <li><span class="c-name">Dr Saumya Y. M</span> <span class="c-affiliation">SJEC Mangaluru,
+                                India</span></li>
+                        <li><span class="c-name">Dr Vasudeva</span> <span class="c-affiliation">NMAMIT, Nitte
+                                University, India</span></li>
+                    </ul>
+                </div>
+            </div>
 
-            <h3 class="committee-role">Publication Chairs</h3>
-            <p><strong>Dr Vasudeva</strong>, NMAMIT, Nitte University, India</p>
-            <p><strong>Dr Sunitha G</strong>, SJEC Mangaluru</p>
-            <br>
+            <!-- Publication Chairs & Finance Chairs (Grid of 2) -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div class="committee-card">
+                    <div class="committee-header">Publication Chairs</div>
+                    <div class="committee-body">
+                        <div style="margin-bottom: 15px;">
+                            <span class="c-name">Dr Vasudeva</span>
+                            <span class="c-affiliation">NMAMIT, Nitte University, India</span>
+                        </div>
+                        <div>
+                            <span class="c-name">Dr Sunitha G</span>
+                            <span class="c-affiliation">SJEC Mangaluru</span>
+                        </div>
+                    </div>
+                </div>
 
-            <h3 class="committee-role">Finance Chairs</h3>
-            <p><strong>Dr Ajithanjaya Kumar M K</strong>, SJEC Mangaluru, India</p>
-            <p><strong>Dr. Gurusiddayya Hiremath</strong>, SCEM Mangaluru</p>
+                <div class="committee-card">
+                    <div class="committee-header">Finance Chairs</div>
+                    <div class="committee-body">
+                        <div style="margin-bottom: 15px;">
+                            <span class="c-name">Dr Ajithanjaya Kumar M K</span>
+                            <span class="c-affiliation">SJEC Mangaluru, India</span>
+                        </div>
+                        <div>
+                            <span class="c-name">Dr. Gurusiddayya Hiremath</span>
+                            <span class="c-affiliation">SCEM Mangaluru</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
